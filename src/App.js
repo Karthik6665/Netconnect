@@ -1,17 +1,19 @@
 import React from 'react';
 import './App.css';
-import rad from './R.png'
+import rad from './R.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faWifi,faPlus} from '@fortawesome/free-solid-svg-icons';
 const App = () => {
   return (
     <div id='main'>
       <div id='section1'>
         <div id='section2'>
           <div className='innerdiv'>
-            <div className='di'>
+            <div className='middiv'>
               <img id='po' src={rad} alt='R.png' />
               <div className='ind'>
-                <h2>NetConnect</h2>
-                <p>by Google</p>
+                <h2 id='kl'>NetConnect</h2>
+                <p id='ji'>by Google</p>
               </div>
             </div>
             <h1 className='k'>Global Service Status</h1>
@@ -54,6 +56,28 @@ const App = () => {
       <div className='mi'>
         <h1>Welcome to NetConnect</h1>
         <p className='ko'>Your ultimate platform for virtual meetings and collaboration. Connect with people globally, seamlessly</p>
+      </div>
+      <div id='section5'>
+        <div id='web'>
+          <div className='inweb'>
+            <h4 className='lo'>NetConnect Meetings</h4>
+          </div>
+          <div className='sec2'>
+            <p className='km'>Operational</p>
+            <FontAwesomeIcon icon={faWifi} />
+            <FontAwesomeIcon icon={faPlus} />
+          </div>
+        </div>
+        <div id='wer'>
+          <div className='inweb'>
+              <h4 className='lo'>NetConnect App</h4>
+            </div>
+            <div className='sec2'>
+              <p className='km'>Operational</p>
+              <FontAwesomeIcon icon={faWifi} />
+              <FontAwesomeIcon icon={faPlus} />
+            </div>
+        </div>
       </div>
     </div>
   );
