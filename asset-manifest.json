@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Netconnect/static/css/main.beb52dd7.css",
-    "main.js": "/Netconnect/static/js/main.f31b6e1e.js",
+    "main.css": "/Netconnect/static/css/main.54f89a31.css",
+    "main.js": "/Netconnect/static/js/main.dbe28817.js",
     "static/js/453.a86c7453.chunk.js": "/Netconnect/static/js/453.a86c7453.chunk.js",
     "static/media/R.png": "/Netconnect/static/media/R.26ff9fcc942cedd9f169.png",
     "index.html": "/Netconnect/index.html",
-    "main.beb52dd7.css.map": "/Netconnect/static/css/main.beb52dd7.css.map",
-    "main.f31b6e1e.js.map": "/Netconnect/static/js/main.f31b6e1e.js.map",
+    "main.54f89a31.css.map": "/Netconnect/static/css/main.54f89a31.css.map",
+    "main.dbe28817.js.map": "/Netconnect/static/js/main.dbe28817.js.map",
     "453.a86c7453.chunk.js.map": "/Netconnect/static/js/453.a86c7453.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.beb52dd7.css",
-    "static/js/main.f31b6e1e.js"
+    "static/css/main.54f89a31.css",
+    "static/js/main.dbe28817.js"
   ]
 }
