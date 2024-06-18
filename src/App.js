@@ -14,7 +14,7 @@ const App = () => {
                 <p>by Google</p>
               </div>
             </div>
-            <h1>Global Service Status</h1>
+            <h1 className='k'>Global Service Status</h1>
           </div>
           <div id='innerdiv2'>
             <button className='stbtn'>Plans&Price</button>
@@ -45,11 +45,15 @@ const App = () => {
         </div>
       </div>
       <div className='footer'>
-        <li>©2024 Cisco and/or its affiliates. All rights reserved.</li>
-        <li>Terms & Conditions</li>
-        <li>Privacy Statement</li>
-        <li>Cookies</li>
-        <li>Trademarks</li>
+        <span>©2024 Google and/or its affiliates. All rights reserved.</span>
+        <span>Terms & Conditions</span>
+        <span>Privacy Statement</span>
+        <span>Cookies</span>
+        <span>Trademarks</span>
+      </div>
+      <div className='mi'>
+        <h1>Welcome to NetConnect</h1>
+        <p className='ko'>Your ultimate platform for virtual meetings and collaboration. Connect with people globally, seamlessly</p>
       </div>
     </div>
   );
