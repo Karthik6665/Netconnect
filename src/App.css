@@ -122,12 +122,19 @@ h1{
 select{
   color:white;
   background-color: transparent;
-  height:28px;
+  height:40%;
   width:20%;
   border: transparent;
-  border-bottom: 1px solid green;
   font-size: 1rem;
-  
+}
+select:hover{
+  border:transparent;
+  border-bottom: 1px solid green;
+  cursor: pointer;
+}
+option{
+  color:black;
+  background-color: white;
 }
 .strtbtn{
   background-color: white;
