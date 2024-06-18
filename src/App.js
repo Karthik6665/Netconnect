@@ -7,7 +7,7 @@ const App = () => {
       <div id='section1'>
         <div id='section2'>
           <div className='innerdiv'>
-            <div className='div'>
+            <div className='di'>
               <img id='po' src={rad} alt='R.png' />
               <div className='ind'>
                 <h2>NetConnect</h2>
